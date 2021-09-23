@@ -4,18 +4,17 @@ __author__ = "730236019"
 
 word: str = input("Enter a word: ")
 i: int = 0
-h: int = 0
 answer: bool = False
 ch: str
 
 while i < len(word):
     ch = word[i]
-    while ((h < len(word)) and (i != h)): 
-        if(ch == word[i]):  
-            response = True
+    h: int = 0
+    while ((h < len(word)) and (h != i)): 
+        if(ch == word[h]):  
+            answer = True
         h += 1
-    h = 0
     i += 1
 final_answer: str = str(answer)
 
-print("Found Duplicate: " + final_answer)
+print("Found duplicate: " + final_answer)

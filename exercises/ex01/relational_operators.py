@@ -1,4 +1,4 @@
-"""Programs utilizes bool to evaluate relational operators"""
+"""Programs utilizes bool to evaluate relational operators."""
 
 __author__ = "730236019"
 
