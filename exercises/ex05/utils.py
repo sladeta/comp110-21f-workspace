@@ -21,9 +21,9 @@ def sub(input: list[int], start: int, end: int) -> list[int]:
     if list_len == 0 or start > list_len or end <= 0:
         return subset
     if end > list_len:
-        end == list_len - 1
+        end = list_len - 1
     if start < 0:
-        start == 0
+        start = 0
     while start < end:
         subset.append(input[start])
         start += 1
