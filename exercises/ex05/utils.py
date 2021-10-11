@@ -16,6 +16,7 @@ def only_evens(x: list[int]) -> list[int]:
 
 
 def sub(input: list[int], start: int, end: int) -> list[int]:
+    """Returns a sub list based on 2 index points."""
     subset: list[int] = list()
     list_len: int = len(input)
     if list_len == 0 or start > list_len or end <= 0:
@@ -31,6 +32,7 @@ def sub(input: list[int], start: int, end: int) -> list[int]:
 
 
 def concat(x: list[int], y: list[int]) -> list[int]:
+    """Concatenates two lists together."""
     i: int = 0
     len_x: int = len(x)
     len_y: int = len(y)
